@@ -70,8 +70,6 @@ handleButton = (first_name) => {
     });
   };
 
-  componentDidMount() {
-  }
   render() {
     this.loadMahasiswa()
     return (
