@@ -5,38 +5,38 @@ import "antd/dist/antd.css";
 export default class DaftarMahasiswa extends Component {
   constructor(props) {
     super(props);
-    this.loadMahasiswa=this.loadMahasiswa.bind(this)
+    this.loadDetail=this.loadDetail.bind(this)
     this.state = {
       listData: JSON.parse(localStorage.getItem('mahasiswa')),
       visible: false,
     };
   }
 
-  loadMahasiswa() {
+  loadDetail() {
     var list = [
       {
         nim: '21120118130078',
-        nama: 'Septian Nugraha',
+        nama: 'Steven',
         ttl: 'Jakarta, 4 september 2000',
         asal: 'Jakarta',
         hobi: 'Futsal',
-        foto: '/septian.jpg'
+        foto: '/steven.jpg'
       },
       {
         nim: '21120118130055',
-        nama: 'Alvin Arrazy',
-        ttl: 'Medan, 20 Januari 2000',
-        asal: 'Medan',
+        nama: 'Mark',
+        ttl: 'Banten, 20 Januari 2000',
+        asal: 'Banten',
         hobi: 'Futsal',
-        foto: '/Alvin.png'
+        foto: '/mark.jpg'
       },
       {
       nim: '21120118140092',
-      nama: 'Yusuf Hammadi',
+      nama: 'Jhonson',
       ttl: 'Depok, 17 Januari 2000',
       asal: 'Depok',
       hobi: 'Bermain Game',
-      foto: '/ucup.jpg'
+      foto: '/jhonson.jpg'
     },
     {
     nim: '21120118130047',
@@ -71,7 +71,7 @@ handleButton = (first_name) => {
   };
 
   render() {
-    this.loadMahasiswa()
+    this.loadDetail()
     return (
       <div style={{ backgroundColor: "white" }}>
         <div className="boxWhite" style={{ backgroundColor: "black" }}>
