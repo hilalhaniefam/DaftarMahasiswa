@@ -15,9 +15,9 @@ export default class Homepage extends Component {
                       <div className="col-sm-4 bg-c-lite-green user-profile">
                         <div className="card-block text-center text-white">
                           <div className="m-b-25">
-                               <img src="/sujono.jpg" alt="User-Profile-Image" /> </div>
-                          <h6 className="f-w-600">Sujono</h6>
-                          <p>Admin</p> <i className=" mdi mdi-square-edit-outline feather icon-edit m-t-10 f-16" />
+                               <img src="/Hilal.jpg" alt="User-Profile-Image" /> </div>
+                          <h6 className="f-w-600">Hilal Haniefam</h6>
+                          <p>Mahasiswa</p> <i className=" mdi mdi-square-edit-outline feather icon-edit m-t-10 f-16" />
                         </div>
                       </div>
                       <div className="col-sm-8">

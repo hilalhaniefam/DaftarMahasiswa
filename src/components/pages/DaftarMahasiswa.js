@@ -44,7 +44,16 @@ export default class DaftarMahasiswa extends Component {
     ttl:  'Cilacap, 2 September 2000',
     asal: 'Cilacap',
     hobi: 'Bermusik',
-    foto: '/Hilal.jpg'}
+    foto: '/Hilal.jpg'
+    },
+    {
+    nim: '21120118130100',
+    nama: 'Sujono',
+    ttl:  'Bogor, 7 September 2000',
+    asal: 'Bogor',
+    hobi: 'Bermusik',
+    foto: '/sujono.jpg'
+    }
     ]
 
     localStorage.setItem('mahasiswa', JSON.stringify(list))
